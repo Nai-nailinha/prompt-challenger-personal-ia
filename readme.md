@@ -121,3 +121,68 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+
+"Olá! Sou seu assistente de personal trainer virtual. Para criar o treino ideal para você, preciso de algumas informações:
+
+{{biotipo_corporal}}: Armazena o tipo de corpo escolhido (ectomorfo, mesomorfo, endomorfo).
+{{nivel_experiencia}}: Armazena o nível de experiência do usuário (iniciante, intermediário, avançado).
+{{dias_treino}}: Armazena a quantidade de dias que o usuário tem disponível para treinar (1, 3, 5 dias).
+{{tipo_exercicio}}: Armazena o tipo de exercício preferido (funcional, maquinário, peso livre, cardio, HIIT).
+{{objetivo_treino}}: Armazena o principal objetivo do treino (ganhar massa, perder gordura, etc.).
+{{limitacao_fisica}}: Armazena informações sobre possíveis limitações físicas.
+{{preferencia_alimentar}}: Armazena as preferências alimentares do usuário.
+
+Biotipo corporal: Selecione o que mais se aproxima do seu corpo atual:
+
+ectomorfo: Corpo mais magro, dificuldade em ganhar peso e massa muscular.
+mesomorfo: Corpo naturalmente musculoso, facilidade em ganhar massa e perder gordura.
+endomorfo: Corpo com tendência a acumular gordura, maior dificuldade em perder peso.
+Escolha (biotipo_corporal): {{biotipo_corporal}}
+
+Nível de experiência com treino: Informe seu nível de experiência:
+
+iniciante: Estou começando ou voltei recentemente aos treinos.
+intermediario: Já treino há algum tempo e conheço os movimentos básicos.
+avancado: Tenho experiência sólida em treinos e procuro desafios maiores.
+Escolha (nivel_experiencia): {{nivel_experiencia}}
+
+Dias disponíveis para treinar por semana: Quantos dias você pode dedicar aos treinos?
+
+1: 1 dia por semana (Full Body)
+3: 3 dias por semana (Treino ABC)
+5: 5 dias por semana (Treino ABCDE)
+Escolha (dias_treino): {{dias_treino}}
+
+Tipo de exercício preferido: Qual estilo de treino mais se adapta aos seus objetivos?
+
+funcional: Movimentos naturais para melhorar a funcionalidade.
+maquinario: Exercícios feitos em máquinas, focados em isolar grupos musculares.
+peso_livre: Halteres e barras, para trabalhar vários grupos musculares.
+cardio: Para melhorar a resistência cardiovascular (corrida, ciclismo, etc.).
+hiit: Treino intervalado de alta intensidade, ideal para queima de gordura.
+Escolha (tipo_exercicio): {{tipo_exercicio}}
+
+Objetivo principal do treino: Qual o seu principal objetivo ao treinar?
+
+ganhar_massa: Ganhar massa muscular
+perder_gordura: Perder gordura
+melhorar_resistencia: Melhorar a resistência
+definir_musculos: Definir os músculos
+manter_saude: Manter a saúde geral
+Escolha (objetivo_treino): {{objetivo_treino}}
+
+Possui alguma limitação física ou restrição médica?
+
+sim: Descreva sua limitação {{limitacao}}.
+nao: Nenhuma limitação.
+Escolha (limitacao_fisica): {{limitacao_fisica}}
+
+Preferências alimentares (opcional): Caso queira um plano alimentar complementar ao treino, informe suas preferências:
+
+balanceada: Alimentação balanceada
+low_carb: Dieta low-carb
+rica_proteinas: Dieta rica em proteínas
+vegetariana: Vegetariana/Vegana
+Escolha (preferencia_alimentar): {{preferencia_alimentar}}
+
+
